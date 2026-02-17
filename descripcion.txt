@@ -1,0 +1,6 @@
+El programa original solo permite realizar una cotización. 
+Se requiere modificarlo para que el usuario pueda ingresar varias cotizaciones 
+hasta que escriba la palabra "Salir". Además, se deben agregar recargos:
+- 35% de la cotización por cada propiedad.
+- 5% sobre el salario del asegurado.
+Finalmente, se debe documentar el funcionamiento en un archivo README.md.
