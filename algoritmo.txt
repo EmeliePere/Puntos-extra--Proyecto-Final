@@ -1,0 +1,15 @@
+INICIO
+  MIENTRAS (entrada != "Salir")
+    Solicitar nombre del asegurado
+    Solicitar salario del asegurado
+    Solicitar cantidad de propiedades
+    Solicitar valor base de la cotización
+
+    Calcular recargo_propiedades = cotizacion_base * 0.35 * cantidad_propiedades
+    Calcular recargo_salario = salario * 0.05
+    Calcular cotizacion_total = cotizacion_base + recargo_propiedades + recargo_salario
+
+    Mostrar cotizacion_total
+    Preguntar si desea otra cotización o escribir "Salir"
+  FIN MIENTRAS
+FIN
